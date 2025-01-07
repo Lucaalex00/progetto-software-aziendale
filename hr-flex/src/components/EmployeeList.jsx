@@ -2,11 +2,11 @@ import PropTypes from 'prop-types';
 
 const EmployeeList = ({ employees }) => {
   return (
-    <div className="flex-1 min-w-[250px] h-full bg-white p-4 shadow-lg rounded overflow-auto max-h-[400px]">
+    <div className="flex-1 w-[350px] sm:w-[250px] lg:min-w-[300px] h-full bg-white p-4 shadow-lg rounded overflow-auto max-h-[400px]">
       <h3 className="font-semibold text-lg mb-4">Employees</h3>
       {employees.length > 0 ? (
         employees.map((employee) => (
-          <div key={employee.id} className="employee-item p-2 bg-gray-100 rounded mb-2">
+          <div key={employee.id} className="hover:bg-gray-300 employee-item p-2 bg-gray-100 rounded mb-2">
             <p className="font-semibold">{employee.name}</p>
             <p className="text-sm text-gray-500">{employee.role}</p>
           </div>

@@ -14,7 +14,7 @@ const Topbar = () => {
     <nav 
       className={`bg-gray-800 bg-opacity-95 w-full text-white fixed top-0 left-0 z-20 md:block hidden transition-all duration-300 ${isTopbarOpen ? 'h-20' : 'h-8'}`}
     >
-      <div className={`flex justify-between max-w-screen-2xl items-center px-10 h-full transition-all duration-200 ${isTopbarOpen ? 'opacity-100' : 'opacity-0'} ${isTopbarOpen ? 'translate-y-0' : 'translate-y-[-5rem]'}`}>
+      <div className={`flex justify-between items-center px-10 h-full transition-all duration-200 ${isTopbarOpen ? 'opacity-100' : 'opacity-0'} ${isTopbarOpen ? 'translate-y-0' : 'translate-y-[-5rem]'}`}>
             <h1 className={`text-lg transition-opacity duration-300 ${isTopbarOpen ? 'opacity-100' : 'opacity-0'}`}>
             My App
           </h1>

@@ -24,7 +24,7 @@ const App = () => {
           <Topbar />
 
           {/* Content based on the current route */}
-          <div className={`pt-24 p-4`}>
+          <div className={`pt-16 p-4`}>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/dashboard" element={<DashboardPage />} />
