@@ -14,7 +14,7 @@ const App = () => {
   return (
     // Wrap the app with the Provider to give access to Redux store
     <Provider store={store}>
-      <div className="flex h-full bg-gray-300">
+      <div className="flex bg-gray-300">
         {/* Sidebar for small devices */}
         <Sidebar />
 

@@ -16,7 +16,7 @@ ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, T
 const TaskCompletionChart = ({ taskCompletion }) => {
   const options = {
     responsive: true,
-    maintainAspectRatio: false, // Aggiungi questa opzione
+    maintainAspectRatio: false,
     plugins: {
       legend: { position: 'top' },
       title: { display: true, text: 'Task Completion' },
